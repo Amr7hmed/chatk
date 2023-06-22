@@ -1,0 +1,12 @@
+{
+  "currentPassword": "كلمة المرور الحالية",
+  "newPassword": "كلمة المرور الجديدة",
+  "confirmNewPassword": "تأكيد كلمة المرور الجديدة",
+  "deleteAccount": "حذف الحساب",
+  "changePassword": "تغيير كلمة المرور",
+  "updatePassword": "تحديث كلمة المرور",
+  "changePhoneNumber": "تغيير رقم الهاتف",
+  "updatePhoneNumber": "تحديث رقم الهاتف",
+  "newPhoneNumber": "رقم الهاتف الجديد",
+  "changePhoneNumberSubtitle": "الرجاء إدخال رقم الهاتف الجديد"
+}

@@ -1,0 +1,53 @@
+@import '../utils/_variables.scss';
+
+.home {
+  background-color: #121324;
+  color: #b4bcd0;
+
+  .vc_section {
+    min-height: 80vh;
+    max-height: auto;
+    .slider-heading {
+      font-size: 6.25rem !important;
+      line-height: 7.5rem !important;
+      margin: 6.5625rem 0rem;
+      font-family: Inter, sans-serif;
+      font-weight: 700;
+      line-height: 1.5;
+      text-align: center;
+
+      .alt-gradient,
+      .font-color-gradient {
+        -webkit-text-fill-color: transparent;
+        background: linear-gradient(90deg, #e86e9f 0, #2a48df);
+        -webkit-background-clip: text;
+        background-clip: text;
+      }
+    }
+
+    ul {
+      margin-bottom: 6.5625rem;
+
+      li {
+        a {
+          display: inline-block;
+          background-color: #2a48df;
+          border-radius: 3.75rem;
+          color: #fff;
+          font-family: Manrope, sans-serif;
+          font-size: 1.125rem;
+          font-weight: 600;
+          margin: auto;
+          max-width: 17.5rem;
+          padding: 1.25rem 3.75rem;
+          position: relative;
+          text-align: center;
+        }
+        p{
+          margin-top: 1.5rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

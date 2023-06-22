@@ -1,0 +1,97 @@
+.auth {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            width: 240px;
+            height: 68px;
+        }
+
+        p {
+            margin-top: 2rem;
+            font-size: 1.25rem;
+            color: #475569;
+            font-weight: 700;
+        }
+    }
+
+    &__form {
+        padding: 1rem 1.5rem;
+        background-color: #f2f4f5;
+        border: 1px solid #e5e7eb;
+        border-radius: 0.5rem;
+        form {
+            width: 320px;
+            label{
+                font-weight: 500;
+                font-size: .875rem;
+            }
+            input {
+                width: 100%;
+                height: 40px;
+                font-size: .875rem;
+                &:focus {
+                    border-color: #2563eb;
+                }
+
+                &::placeholder {
+                    color: #475569;
+                }
+            }
+            .position-relative{
+                border: 1px solid #dee2e6;
+                border-radius: .375rem;
+                -webkit-border-radius: .375rem;
+                -moz-border-radius: .375rem;
+                -ms-border-radius: .375rem;
+                -o-border-radius: .375rem;
+                .toggoleimg{
+                    height: 98%;
+                    width: 40px;
+                    position: absolute;
+                    right: 0%;
+                    top: 50%;
+                    transform: translate(0%, -50%);
+                    background-color: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 0rem .375rem .375rem 0rem;
+                    -webkit-border-radius: 0rem .375rem .375rem 0rem;
+                    -moz-border-radius: 0rem .375rem .375rem 0rem;
+                    -ms-border-radius: 0rem .375rem .375rem 0rem;
+                    -o-border-radius: 0rem .375rem .375rem 0rem;
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+            .button-login{
+                font-weight: 600;
+                color: var(--white-color);
+                background-color: #2a48df;
+                    width: 100%;
+                    height: 40px;
+            }
+        }
+        div{
+            a{
+                color: #000;
+                font-size: 14px;
+                &:hover{
+                    color: #2a48df;
+                }
+            }
+        }
+    }
+}

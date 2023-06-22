@@ -1,0 +1,12 @@
+{
+  "currentPassword": "Current Password",
+  "newPassword": "New Password",
+  "confirmNewPassword": "Confirm New Password",
+  "deleteAccount": "Delete Account",
+  "changePassword": "Change Password",
+  "updatePassword": "Update Password",
+  "changePhoneNumber": "Change Phone Number",
+  "updatePhoneNumber": "Update Phone Number",
+  "newPhoneNumber": "New Phone Number",
+  "changePhoneNumberSubtitle": "Please enter the new phone number"
+}

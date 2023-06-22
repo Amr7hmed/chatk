@@ -1,0 +1,41 @@
+// Screen Break Points
+// Taken from tailwindCSS https://tailwindcss.com/docs/screens
+$screen_xs: 475px;
+$screen_sm: 640px;
+$screen_md: 768px;
+$screen_lg: 1024px;
+$screen_xlg: 1280px;
+$screen_2xl: 1536px;
+
+
+
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    //Primary colors
+    // Primary Colors
+    --primary-one-color:  #0061ef;
+    --primary-two-color: #a2a5ac;
+    --primary-three-color: #020524;
+    //Secondary colors
+    --secondary-one-color: #32a361;
+    --secondary-two-color: #e01f3d;
+    --secondary-three-color: #e6cd2f;
+    --secondary-four-color: #204496;
+  
+    // Font Family
+    --font-cairo: 'Cairo', sans-serif;
+  
+  
+    // Font Size
+    --font-heading-size: 40px;
+    --font-title-size: 24px;
+    --font-paragraphone-size: 24px;
+    --font-paragraphtwo-size: 16px;
+  }
+.no-margin-bottom{
+    margin-bottom: 0;
+}
+.font-color-white{
+    color: var(--white-color);
+}

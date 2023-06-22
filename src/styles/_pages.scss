@@ -1,0 +1,1832 @@
+.pages {
+    width: 100%;
+    background-color: var(--white-color);
+    height: auto;
+
+    nav.navbar {
+        height: 120px;
+        background-color: var(--white-color);
+
+        li.nav-item {
+            &:hover {
+                color: #a5a9a9;
+            }
+
+            a {
+                color: #a5a9a9;
+
+                &:hover {
+                    color: #a5a9a9;
+                }
+            }
+
+            .form-select {
+                filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(107%) contrast(40%);
+                color: #607d8b;
+            }
+        }
+
+        ul.language {
+            li.nav-item {
+                .form-select {
+                    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(107%) contrast(40%);
+                    color: #607d8b;
+                }
+            }
+        }
+    }
+
+    &__silderscreen {
+        margin: 20px auto;
+        height: 420px;
+        background-size: cover;
+        background-position: center;
+
+        .container {
+            position: relative;
+            height: 100%;
+
+            .title {
+                padding: 0px 15px;
+                height: 77.2px;
+                position: relative;
+                top: 0%;
+                font-size: 48px;
+                text-align: center;
+                border-radius: 0px 0px 5px 5px;
+                -webkit-border-radius: 0px 0px 5px 5px;
+                -moz-border-radius: 0px 0px 5px 5px;
+                -ms-border-radius: 0px 0px 5px 5px;
+                -o-border-radius: 0px 0px 5px 5px;
+                text-transform: capitalize;
+                padding: 0px 20px;
+                width: auto;
+                display: inline-block;
+                mix-blend-mode: hard-light;
+                color: #ffffff;
+
+                p {
+                    color: #ffffff;
+                    background-color: transparent;
+                    z-index: 5;
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    font-family: var(--font-title-heading);
+                    font-weight: bold;
+                    margin-bottom: 0px;
+                }
+            }
+
+
+        }
+
+        h3.titlenews {
+            position: relative;
+            top: 100px;
+            width: 50%;
+            font-size: 43px;
+            font-weight: bold;
+            color: #0061ef;
+            text-transform: capitalize;
+            font-family: var(--font-title-heading);
+            font-weight: bold;
+        }
+    }
+
+}
+
+.about {
+    &__row {
+        margin: 85px 0px 105px 0px;
+        width: 100%;
+        background-color: var(--white-color);
+    }
+
+    &__cardleft {
+        font-size: 16px;
+        color: #afa6a9;
+
+        h3 {
+            font-size: 34px;
+            color: var(--primary-one-color);
+            font-family: var(--font-title-heading);
+            font-weight: bold;
+        }
+
+        p {
+            margin: 16px 0px 8px 0px;
+            margin-bottom: 10px;
+            width: 80%;
+            font-family: var(--font-title-pargrife);
+        }
+
+        ul {
+            margin-bottom: 40px;
+
+            li {
+                margin: 8px 0px;
+                font-family: var(--font-title-pargrife);
+
+                .bultes {
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    background-color: #62cfc4;
+                    margin-right: 8px;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                }
+            }
+        }
+    }
+
+    &__cardright {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        >div {
+            padding: 30px 22px 30px;
+            background-color: #f2f4f4;
+            margin-bottom: 16px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            width: 327px;
+
+            .title {
+                margin-bottom: 13px;
+                display: flex;
+                align-items: center;
+
+                .icon {
+                    display: inline-block;
+                    width: 54.8px;
+                    height: 24.5px;
+                    margin-right: 14px;
+
+                    img {
+                        width: 54.8px;
+                        height: 24.5px;
+                        object-fit: contain;
+                    }
+                }
+
+                .text {
+                    font-size: 32.2px;
+                    font-weight: bold;
+                    color: #00d6cd;
+                    font-family: var(--font-title-heading);
+
+                }
+            }
+
+            p {
+                font-size: 17px;
+                color: #a2a5a5;
+                font-family: var(--font-title-pargrife);
+            }
+        }
+    }
+
+    &__end {
+        height: 188px;
+        margin: 102px 0px 138px 0px;
+        padding: 47px 25px 47px 40px;
+        background-color: #f2f4f4;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+
+        .left {
+            display: flex;
+            align-items: center;
+            height: 100px;
+            width: 250px;
+            margin-right: 30px;
+
+            img {
+                width: 30.8px;
+                height: 69px;
+                margin-right: 18px;
+                object-fit: contain;
+            }
+
+            h6 {
+                margin-bottom: 0px;
+                font-size: 36px;
+                font-weight: bold;
+                color: #007bf9;
+                display: flex;
+                flex-direction: column;
+                font-family: var(--font-title-heading);
+
+            }
+        }
+
+        .right {
+            display: flex;
+            justify-content: space-between;
+            height: 100px;
+            width: calc(100% - 280px);
+
+            ul {
+                width: 140px;
+                margin-right: 20px;
+                font-size: 15px;
+                color: #afafaf;
+
+                li {
+                    span.link {
+                        display: inline-block;
+                        width: 29.3px;
+                        height: 1.2px;
+                        margin-bottom: 8px;
+                        background-color: #00d6cd;
+                        font-family: var(--font-title-pargrife);
+                    }
+                }
+
+                &:last-child {
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+}
+
+.care {
+    &__row {
+        .carecard {
+            margin: 70px 0px;
+            width: 100%;
+            display: flex;
+            height: 329px;
+
+            .text {
+
+                width: 50%;
+                background-color: #f2f4f4;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                position: relative;
+
+                .data {
+                    h5 {
+                        font-size: 33px;
+                        margin-bottom: 5px;
+                        color: var(--primary-one-color);
+                        margin-bottom: 5px;
+                        font-family: var(--font-title-heading);
+                        font-weight: bold;
+                    }
+
+                    span.sub_title {
+                        font-size: 28px;
+                        font-weight: bold;
+                        color: var(--primary-one-color);
+                        margin-bottom: 15px;
+                        display: block;
+                        font-family: var(--font-title-heading);
+                    }
+
+                    width: 360px;
+                    align-self: center;
+                    font-size: 16px;
+                    color: #00cec5;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    font-family: var(--font-title-pargrife);
+
+
+                }
+            }
+
+            .image {
+                height: 329px;
+                width: 50%;
+
+                img {
+                    height: 329px;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            &:nth-child(odd) {
+                flex-direction: row;
+
+                .text {
+
+                    img {
+                        width: 43px;
+                        height: 217.2px;
+                        object-fit: contain;
+                        margin: 0px 28px 0px 38px;
+                        align-self: flex-end;
+                    }
+
+                    img.imageiconetwo {
+                        display: none;
+                    }
+                }
+
+                .image {
+                    border-radius: 0px 100px 0px 0px;
+
+                    img {
+                        border-radius: 0px 100px 0px 0px;
+                    }
+                }
+            }
+
+            &:nth-child(even) {
+                flex-direction: row-reverse;
+
+                .text {
+
+                    img {
+                        position: absolute;
+                        width: 91.6px;
+                        height: 93px;
+                        object-fit: contain;
+                        top: 0%;
+                        right: 0%;
+                    }
+
+                    img.imageiconeone {
+                        display: none;
+                    }
+                }
+
+                .image {
+                    border-radius: 100px 0px 0px 0px;
+
+                    img {
+                        border-radius: 100px 0px 0px 0px;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    &__end {
+        margin: 40px 0px;
+
+        h4 {
+            font-size: 33px;
+            font-weight: bold;
+            margin-bottom: 12px;
+            font-family: var(--font-title-heading);
+        }
+
+        p {
+            font-size: 17px;
+            width: 50%;
+            color: #a8a6b2;
+            font-family: var(--font-title-pargrife);
+
+        }
+    }
+}
+
+.meetteam {
+    &__row {
+        margin-top: 70px;
+    }
+
+    &__card {
+        width: 327px;
+        margin-bottom: 75px;
+
+        .image {
+            width: 330px;
+            height: 346px;
+            margin-bottom: 28px;
+            position: relative;
+            border-radius: 30% 10% 10% 10%;
+
+            img {
+                width: 100%;
+                height: 346px;
+                object-fit: contain;
+                border-radius: 30% 10% 10% 10%;
+            }
+
+            .bultes {
+                position: absolute;
+                bottom: -5%;
+                right: -10%;
+                width: 58px;
+                height: 58px;
+                border-radius: 50%;
+                background-color: #430092;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+        }
+
+        .text {
+            h6 {
+                font-size: 20px;
+                color: #3a0092;
+                margin-bottom: 10px;
+                font-family: var(--font-title-heading-three);
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 300;
+                color: #959595;
+                font-family: var(--font-title-pargrife);
+            }
+
+            span {
+                margin-top: 10px;
+                font-size: 14px;
+                color: #00d5d0;
+                font-family: var(--font-title-pargrife);
+            }
+        }
+    }
+}
+
+.newsmedical {
+    &__row {
+        margin: 75px 0px;
+    }
+
+
+}
+
+.new {
+    &__row {
+        margin: 75px 0px;
+        font-size: 18px;
+        font-weight: 300;
+        color: #b1b4b4;
+
+        p,
+        span {
+            margin-bottom: 16px;
+            font-family: var(--font-title-pargrife);
+        }
+    }
+
+    &__card {
+        min-height: 350px;
+        max-height: auto;
+        width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: flex-start;
+
+        .image {
+            width: 400px;
+            height: 300px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+            }
+        }
+
+        .text {
+            width: calc(100% - 430px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h5 {
+                font-size: 33px;
+                color: #007af2;
+                margin-bottom: 5px;
+                font-family: var(--font-title-heading);
+                font-weight: bold;
+            }
+        }
+
+    }
+}
+
+.contactus {
+    &__silderscreen {
+        margin: 80px auto 20px auto;
+        height: 280px;
+        background-size: cover;
+        background-position: center;
+        background-color: var(--primary-one-color);
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        .images {
+            position: absolute;
+            bottom: 0%;
+            height: 350px;
+            width: 85%;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        h3 {
+            color: #ffffff;
+            background-color: transparent;
+            z-index: 5;
+            text-align: center;
+            font-family: var(--font-title-heading);
+            font-weight: bold;
+            margin-bottom: 0px;
+            font-size: 40px;
+        }
+
+    }
+
+    &__row {
+
+        h4 {
+            font-size: 32px;
+            color: #0061ef;
+            margin-bottom: 25px;
+            font-family: var(--font-title-heading);
+            font-weight: bolder;
+        }
+
+        p {
+            font-size: 16px;
+            color: #959595;
+            margin-bottom: 9px;
+            direction: ltr;
+            font-family: var(--font-title-pargrife);
+
+        }
+    }
+
+    &__card {
+        margin-top: 75px;
+
+        iframe {
+            width: 100%;
+            height: 408px;
+        }
+
+        form {
+            label {
+                font-size: 16px;
+                font-weight: 300;
+                color: #959595;
+                margin-bottom: 10px;
+            }
+
+            input {
+                height: 45px;
+                background-color: #f2f4f4;
+                border-color: #f2f4f4;
+            }
+
+            button {
+                margin: 20px auto;
+                display: block;
+                width: 191px;
+                height: 50px;
+                background-color: #0061f7;
+                font-size: 24px;
+                font-weight: bold;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.en {
+    .pages {
+        font-family: DINNextLTProRegular !important;
+
+        &__silderscreen {
+            .title {
+                left: 0%;
+            }
+
+            h3.titlenews {
+                left: 50px;
+            }
+        }
+
+    }
+
+    .new,
+    .newsmedical {
+        font-family: DINNextLTProRegular !important;
+
+        &__row {
+            direction: ltr;
+            text-align: left;
+        }
+
+        &__card {
+            .image {
+                margin-right: 30px;
+            }
+
+            &:nth-child(even) {
+                .image {
+                    margin-right: 0px;
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+
+    .pages,
+    .new,
+    .newsmedical,
+    .about,
+    .care,
+    .meetteam,
+    .contactus {
+        font-family: DINNextLTProRegular !important;
+    }
+
+    .care {
+        &__row {
+            .carecard {
+
+                .text {
+                    font-family: DINNextLTProRegular !important;
+                }
+            }
+        }
+    }
+
+    .contactus {
+        &__silderscreen {
+            flex-direction: row;
+
+            .images {
+                right: 0%;
+            }
+
+            h3 {
+                margin-left: 120px;
+            }
+        }
+    }
+}
+
+.ar {
+    .pages {
+        &__silderscreen {
+            .title {
+                right: 0%;
+                font-size: 28px;
+                line-height: 70px;
+            }
+
+            h3.titlenews {
+                width: 100%;
+                text-align: right;
+                padding: 0px 30px;
+            }
+
+        }
+    }
+
+    .about {
+        &__row {
+            .row {
+                flex-direction: row-reverse;
+            }
+        }
+
+        &__cardleft {
+            direction: rtl;
+
+            ul {
+
+                li {
+
+                    .bultes {
+                        margin-left: 8px;
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }
+
+        &__cardright {
+            direction: rtl;
+
+            >div {
+                .title {
+                    .icon {
+                        margin-right: 0px;
+                        margin-left: 14px;
+                    }
+                }
+            }
+        }
+
+        &__end {
+            direction: rtl;
+
+            .left {
+                margin-right: 0px;
+                margin-left: 28px;
+
+                img {
+                    margin-right: 0px;
+                    margin-left: 18px;
+                }
+            }
+
+        }
+    }
+
+    .care {
+        &__row {
+            .carecard {
+                .text {
+                    .data {
+                        direction: rtl;
+                    }
+                }
+            }
+        }
+
+        &__end {
+            direction: rtl;
+
+            h4 {
+                font-size: 33px;
+                font-weight: bold;
+                margin-bottom: 12px;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: bold;
+                width: 45%;
+                color: #959595;
+
+            }
+        }
+    }
+
+    .meetteam {
+        &__card {
+            float: right;
+
+            .text {
+                direction: rtl;
+            }
+        }
+    }
+
+
+    .contactus {
+        &__row {
+
+            h4 {
+                text-align: right;
+            }
+
+            ul {
+                li {
+                    text-align: right;
+                }
+            }
+        }
+
+        &__card {
+            margin-top: 75px;
+            direction: rtl;
+
+            iframe {
+                float: right;
+            }
+
+            form {
+                label {
+                    width: 100%;
+                    text-align: right;
+                }
+            }
+        }
+
+        &__silderscreen {
+            flex-direction: row-reverse;
+
+            .images {
+                left: 0%;
+            }
+
+            h3 {
+                margin-right: 120px;
+            }
+        }
+    }
+
+    .new,
+    .newsmedical {
+        &__row {
+            direction: rtl;
+            text-align: right;
+        }
+
+        &__card {
+            .image {
+                margin-left: 30px;
+            }
+        }
+
+    }
+
+    .pages,
+    .new,
+    .newsmedical,
+    .about,
+    .care,
+    .meetteam,
+    .contactus {
+        font-family: DINNextLTArabic !important;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    .ar,
+    .en {
+        .newsmedical {
+
+            &__card {
+                justify-content: center;
+                min-height: 300px;
+                max-height: auto;
+
+                .image {
+                    width: 450px;
+                    height: 300px;
+                }
+            }
+
+        }
+
+    }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+
+    .new {
+        &__row {
+            p {
+                font-size: 16px;
+                font-weight: 300;
+                color: #b1b4b4;
+                margin-bottom: 16px;
+            }
+        }
+
+        &__card {
+            min-height: 300px;
+
+            .image {
+                width: 300px;
+                height: 240px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .text {
+                width: calc(100% - 330px);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h5 {
+                    font-size: 28px;
+                }
+
+                a {
+                    font-size: 14px;
+                    font-weight: normal;
+                    color: #007bf9;
+
+                }
+            }
+
+            &:nth-child(even) {
+                .image {
+                    order: 2;
+                    margin-right: 0px;
+                    margin-left: 30px;
+                }
+
+                .text {
+                    order: 1;
+                }
+            }
+        }
+    }
+
+    .newsmedical {
+        &__row {
+            p {
+                font-size: 16px;
+                font-weight: 300;
+                color: #b1b4b4;
+                margin-bottom: 16px;
+            }
+        }
+
+        &__card {
+            min-height: 300px;
+
+            .image {
+                width: 300px;
+                height: 240px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .text {
+                width: calc(100% - 330px);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h5 {
+                    font-size: 28px;
+                }
+
+                a {
+                    font-size: 14px;
+                    font-weight: normal;
+                    color: #007bf9;
+
+                }
+            }
+
+            &:nth-child(even) {
+                .image {
+                    order: 2;
+                    margin-right: 0px;
+                    margin-left: 30px;
+                }
+
+                .text {
+                    order: 1;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .en {
+
+        .new,
+        .newsmedical {
+            &__card {
+                .image {
+                    margin-right: 0px;
+                }
+
+                &:nth-child(even) {
+                    .image {
+                        margin-right: 0px;
+                        margin-left: 0px;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    .new {
+        &__row {
+            p {
+                font-size: 14px;
+            }
+        }
+
+        &__card {
+            min-height: 400px;
+            max-height: auto;
+            width: 100%;
+            align-items: flex-start;
+            flex-direction: column;
+
+            .image {
+                width: 300px;
+                height: 270px;
+                margin-bottom: 10px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .text {
+                margin-top: 15px;
+                width: 100%;
+
+                h5 {
+                    font-size: 28px;
+                }
+            }
+
+        }
+    }
+
+    .newsmedical {
+        &__card {
+            min-height: 400px;
+            max-height: auto;
+            width: 100%;
+            align-items: flex-start;
+            flex-direction: column;
+
+            .image {
+                width: 300px;
+                height: 270px;
+                margin-bottom: 10px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .text {
+                margin-top: 15px;
+                width: 100%;
+
+                h5 {
+                    font-size: 28px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+
+            &:nth-child(even) {
+                .image {
+                    order: 1;
+                }
+
+                .text {
+                    order: 2;
+                }
+            }
+
+        }
+    }
+}
+
+// 7- Style CreateReview Page To Media Queris 992px.
+@media screen and (max-width: 992px) {
+    .pages {
+        height: auto;
+        padding-bottom: 1px;
+
+        &__silderscreen {
+            height: 300px;
+
+            .container {
+                h3.titlenews {
+                    width: 100%;
+                    left: 0%;
+                }
+
+            }
+        }
+    }
+
+    .about {
+
+        &__cardright {
+            margin-top: 50px;
+        }
+
+        &__end {
+            height: auto;
+            flex-direction: column;
+
+            .left {
+                margin-right: 0px;
+                margin-bottom: 28px;
+                width: 100%;
+            }
+
+            .right {
+                height: auto;
+                flex-direction: column;
+                width: 100%;
+
+                ul {
+                    width: auto;
+                    margin-right: 0px;
+                    margin-bottom: 20px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #b1b4b4;
+                }
+            }
+        }
+
+    }
+
+    .care {
+        &__row {
+            .carecard {
+                flex-direction: column !important;
+                height: auto;
+
+                .text {
+                    height: 329px;
+                    width: 100%;
+
+                    .data {
+                        width: 360px;
+                        font-size: 14px;
+
+                        h5 {
+                            font-size: 30px;
+                        }
+
+                        span.sub_title {
+                            font-size: 18px;
+                        }
+                    }
+                }
+
+                .textone {
+                    order: 2;
+                }
+
+                .image {
+                    width: 100%;
+                }
+
+            }
+        }
+
+        &__end {
+            margin: 40px 0px;
+
+            h4 {
+                font-size: 30px;
+            }
+
+            p {
+                width: 100%;
+
+            }
+        }
+    }
+
+    .meetteam {
+        &__card {
+            width: 300px;
+
+            .image {
+
+                .bultes {
+                    position: absolute;
+                    bottom: 0%;
+                    right: -7%;
+                }
+            }
+
+            .text {
+                h6 {
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #3a0092;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: #959595;
+                }
+
+                span {
+                    margin-top: 10px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #00d5d0;
+                }
+            }
+        }
+    }
+
+}
+
+// 1- 2- Style Navbar Component To Media Queris Samll.
+@media screen and (max-width: 762px) {
+    .pages {
+
+        &__silderscreen {
+            height: 250px;
+
+            .container {
+                .title {
+                    height: 60.2px;
+                    font-size: 34px;
+                }
+            }
+        }
+
+
+    }
+
+    .contactus {
+        &__card {
+            iframe {
+                width: 100%;
+            }
+        }
+        &__silderscreen {
+            height: 280px;
+
+            .images {
+                width: 100%;
+            }
+
+            h3 {
+                font-size: 36px;
+            }
+        }
+    }
+
+    .ar,
+    .en {
+        .pages {
+
+            &__silderscreen {
+                .container {
+                    h3.titlenews {
+                        width: 100%;
+                        left: 0%;
+                        padding: 0px;
+                    }
+
+                }
+            }
+
+        }
+
+        .newsmedical {
+            &__row {
+                margin: 75px 0px;
+
+                .textnews {
+                    p {
+                        width: 100%;
+                    }
+                }
+            }
+
+            &__card {
+                height: auto;
+                width: 100%;
+                margin-bottom: 45px;
+                display: flex;
+                flex-direction: column;
+
+                .image {
+                    width: 100%;
+                    height: 221px;
+                    margin-right: 0px;
+                    margin-bottom: 30px;
+                }
+
+                .text {
+                    width: 100%;
+
+                    h5 {
+                        font-size: 24px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+
+                    span {
+                        font-size: 12px;
+                        font-weight: normal;
+                        color: #007bf9;
+
+                    }
+                }
+
+                &:nth-child(even) {
+                    .image {
+                        order: 1;
+                        margin-left: 0px;
+                    }
+
+                }
+            }
+
+        }
+    }
+
+    .en {
+        .contactus {
+            &__silderscreen {
+                h3 {
+                    margin-left: 50px;
+                }
+            }
+        }
+
+
+    }
+
+    .ar {
+        .contactus {
+            &__silderscreen {
+                h3 {
+                    margin-right: 50px;
+                }
+            }
+        }
+
+
+    }
+
+}
+
+// 1- 2- Style Navbar Component To Media Queris Samll.
+@media screen and (max-width: 576px) {
+    .pages {
+        &__silderscreen {
+            height: 250px;
+            img {height: 300px;}
+            .container {
+                .title {
+                    font-size: 28px;
+                    line-height: 60px;
+                }
+
+                h3.titlenews {
+                    width: 90%;
+                    font-size: 20px;
+                }
+
+            }
+        }
+    }
+
+    .about {
+        &__row {
+            margin: 50px 0px;
+        }
+
+        &__cardleft {
+            font-size: 16px;
+
+            h3 {
+                font-size: 20px;
+            }
+
+            p {
+                margin: 16px 0px 8px 0px;
+                width: 100%;
+            }
+        }
+
+        &__cardright {
+
+            >div {
+                width: 100%;
+
+                .title {
+                    margin-bottom: 13px;
+                    display: flex;
+                    align-items: center;
+
+                    .text {
+                        font-size: 26px;
+                    }
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        &__end {
+            margin: 50px 0px;
+            align-items: flex-start;
+
+            .left {
+
+                h6 {
+                    font-size: 28px;
+                }
+            }
+
+            .right {
+
+                ul {
+                    font-size: 14px;
+                }
+            }
+        }
+
+    }
+
+    .contactus {
+        &__row {
+            margin: 40px 0px;
+
+            h4 {
+                font-size: 24px;
+            }
+
+            ul {
+                li {
+                    font-size: 14px;
+
+                    span {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        &__card {
+            iframe {
+                width: 100%;
+            }
+
+            form {
+
+                button {
+                    width: 170px;
+                    height: 40px;
+                    font-size: 14px;
+                }
+
+            }
+        }
+        
+
+        &__silderscreen {
+            height: 180px;
+            .images {
+                height: 250px;
+            }
+            h3 {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .meetteam {
+        &__card {
+            width: 300px;
+            margin: 25px auto;
+
+            .text {
+                h6 {
+                    font-size: 18px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                span {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .ar,
+    .en {
+        .newsmedical {
+            &__row {
+                margin: 75px 0px;
+
+                .textnews {
+                    p {
+                        width: 100%;
+                    }
+                }
+
+            }
+
+            &__card {
+                height: auto;
+                width: 100%;
+                margin-bottom: 45px;
+                display: flex;
+                flex-direction: column;
+
+                .image {
+                    width: 100%;
+                    height: 221px;
+                    margin-right: 0px;
+                    margin-bottom: 30px;
+                }
+
+                .text {
+                    width: 100%;
+
+                    h5 {
+                        font-size: 24px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+
+                    span {
+                        font-size: 12px;
+                        font-weight: normal;
+                        color: #007bf9;
+
+                    }
+                }
+
+                &:nth-child(even) {
+                    .image {
+                        order: 1;
+                        margin-left: 0px;
+                    }
+
+                }
+            }
+
+        }
+
+    }
+
+    .care {
+        &__row {
+            .carecard {
+                margin: 70px 0px;
+                width: 100%;
+                display: flex;
+                height: auto;
+
+                .text {
+                    height: 250px;
+
+                    .data {
+                        width: 100%;
+                        align-self: center;
+                        padding: 5px;
+
+                        h5 {
+                            font-size: 20px;
+                        }
+
+                        span.sub_title {
+                            font-size: 16px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+
+                .image {
+                    height: 329px;
+
+                    img {
+                        height: 329px;
+                        width: 100%;
+                    }
+                }
+
+                &:nth-child(odd) {
+                    flex-direction: column;
+
+                    .text {
+                        width: 100%;
+
+                        img {
+                            height: 180px;
+                            margin: 0px 10px;
+                        }
+
+                        img.imageiconetwo {
+                            display: none;
+                        }
+                    }
+                }
+
+                &:nth-child(even) {
+                    flex-direction: column;
+
+                    .text {
+                        width: 100%;
+
+                        img {
+                            width: 50px;
+                            height: 50px;
+                        }
+
+                        .data {
+                            align-self: flex-end;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        &__end {
+            margin: 20px 0px;
+
+            h4 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 14px;
+                width: 100%;
+
+            }
+        }
+    }
+
+    .ar {
+        .care {
+
+            &__end {
+                margin: 20px 0px;
+
+                h4 {
+                    font-size: 26px;
+                }
+
+                p {
+                    font-size: 14px;
+                    width: 100%;
+
+                }
+            }
+        }
+
+        .contactus {
+            &__card {
+                margin-top: 40px;
+            }
+        }
+
+        .meetteam {
+            &__card {
+                float: none;
+            }
+        }
+    }
+    
+    .en {
+        .contactus {
+            &__silderscreen {
+                h3 {
+                    margin-left: 30px;
+                }
+            }
+        }
+
+
+    }
+
+    .ar {
+        .contactus {
+            &__silderscreen {
+                h3 {
+                    margin-right: 30px;
+                }
+            }
+        }
+
+
+    }
+}
+
+
+// 1- 2- Style Navbar Component To Media Queris Samll.
+@media screen and (max-width: 400px) {
+    .contactus {
+        &__silderscreen {
+            height: 150px;
+            .images {
+                height: 190px;
+            }
+            h3 {
+                font-size: 30px;
+            }
+        }
+    }
+    .en {
+        .contactus {
+            &__silderscreen {
+                h3 {
+                    margin-left: 20px;
+                }
+            }
+        }
+
+
+    }
+
+    .ar {
+        .contactus {
+            &__silderscreen {
+                h3 {
+                    margin-right: 20px;
+                }
+            }
+        }
+
+
+    }
+}
+// 1- 2- Style Navbar Component To Media Queris Samll.
+@media screen and (max-width: 300px) {
+    .pages {
+        &__silderscreen {
+            height: 220px;
+        }
+    }
+
+    .new {
+        &__row {
+            p {
+                font-size: 12px;
+            }
+        }
+
+        &__card {
+            .image {
+                width: 250px;
+                height: 200px;
+            }
+
+            .text {
+                h5 {
+                    font-size: 24px;
+                }
+            }
+
+        }
+    }
+    
+}

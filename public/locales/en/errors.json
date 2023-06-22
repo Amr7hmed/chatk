@@ -1,0 +1,10 @@
+{
+  "access_denied": "Access Denied",
+  "resendLimitExceeded": "Maximum resend attempts reached. Please contact support for assistance",
+  "phoneVerifyFailed": "Phone verification failed. Please try again with a new OTP code or contact support for assistance.",
+  "pleaseWaitBeforeResend": "Please wait {{min}} minutes before attempting to resend the OTP code",
+  "maxCartQuantity": "Sorry, you cannot add more items to the cart",
+  "guestCheckoutFailed": "Oops! Failed to submit your order. Please try again later or contact our support team for assistance.",
+  "userUpdateFailed": "Oops! Profile update failed. Please try again later or contact our support team for assistance.",
+  "changePasswordFailed": "Password change failed."
+}
