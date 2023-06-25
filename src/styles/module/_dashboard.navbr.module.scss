@@ -116,6 +116,8 @@
 
     &__buttonlist {
         width: 100%;
+        height: 40px;
+        margin-bottom: 2rem;
 
         .btn {
             border-color: #e5e7eb;
@@ -127,6 +129,28 @@
         }
         .btn.active {
             background-color: #e5e7eb;
+        }
+    }
+    &__table{
+        padding: 0rem 1.5rem;
+        padding-bottom: 2.5rem;
+        &__top{
+            padding: 0rem 1.5rem;
+            margin: 1rem 0rem 4rem 0rem;
+            h2{
+                font-size: 1.125rem;
+                font-weight: 500;
+            }
+            .btn{
+                height: 40px;
+                font-size: 14px;
+                img {
+                    width: 18px;
+                    height: 18px;
+                    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(266deg) brightness(105%) contrast(101%) !important;
+                    -webkit-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(266deg) brightness(105%) contrast(101%) !important;
+                }
+            }
         }
     }
 }

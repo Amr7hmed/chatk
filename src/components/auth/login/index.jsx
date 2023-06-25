@@ -2,15 +2,18 @@ import React, { useState } from 'react';
 import { Formik } from "formik";
 import * as Yup from "yup";
 import { InputOuterData, InputPassword } from '../inputs';
+import { useNavigate } from 'react-router-dom';
 
 function FormLogin() {
   const [message, setMessage] = useState("");
+  let navigate = useNavigate();
   const state = {
     email: "",
     password: "",
   };
   const onSubmit = (values) => {
     console.log(values);
+    navigate(`/dashboard/conversations`);
   }
   const form = (props) => {
     return <form onSubmit={props.handleSubmit}>

@@ -13,7 +13,7 @@ function Navbar() {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/"}>
+                            <NavLink to={"/dashboard/bots"}>
                                 <img className='icon'
                                     src="/assets/icons/icon-botos.svg"
                                     alt="Cody – The AI Trained on Your Business" />
@@ -21,7 +21,7 @@ function Navbar() {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/"}>
+                            <NavLink to={"/dashboard/directories"}>
                                 <img className='icon'
                                     src="/assets/icons/copy-solid.svg"
                                     alt="Cody – The AI Trained on Your Business" />

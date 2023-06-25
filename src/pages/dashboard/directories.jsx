@@ -1,16 +1,18 @@
 import React from 'react'
 import Navbar from '../../components/dashboard/layout/navbar';
-import NavLeft from '../../components/dashboard/conversations/navleft';
+import Search from '../../components/dashboard/directories/search';
 
-function Conversations() {
+function Directories() {
     return (
         <main className='conversations'>
             <Navbar />
             <div className="dashboard__full">
-                <NavLeft />
+                <div className='dashboard__left'>
+                    <Search/>
+                </div>
             </div>
         </main>
     )
 }
 
-export default Conversations;
+export default Directories;

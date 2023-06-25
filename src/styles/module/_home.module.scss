@@ -50,4 +50,31 @@
       }
     }
   }
+  .wpb_raw_code{
+    margin-bottom: 6rem;
+    .title{
+      margin-bottom: 5rem;
+      h1{
+        font-size: 3rem;
+        color: #fff;
+        margin-bottom: 2.5rem;
+        font-weight: 700;
+      }
+      p{
+        font-size: 14px;
+      }
+    }
+    .pulse {
+        animation: beat 1s infinite alternate;
+        transform-origin: center;
+    }
+  }
+}
+
+
+
+@keyframes beat {
+100% {
+    transform: scale(1.1);
+}
 }

@@ -3,11 +3,11 @@ import { NavLink } from 'react-router-dom';
 
 function SectionOne() {
     return (
-        <section id="home-section_1" class="vc_section">
+        <section id="home-section_1" className="vc_section">
 
-                <div class="wpb_wrapper">
-                    <h1 class="slider-heading remove-br">
-                        Your <span class="font-color-gradient">AI-Assistant</span>
+                <div className="wpb_wrapper">
+                    <h1 className="slider-heading remove-br">
+                        Your <span className="font-color-gradient">AI-Assistant</span>
                     <br/>
                         for Business
                     </h1>
